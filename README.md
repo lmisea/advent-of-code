@@ -12,6 +12,7 @@ In addition to each day's solution, a benchmark script is also included in the s
 | 2023 | [1](./day_one/) | [Trebuchet?!](https://adventofcode.com/2023/day/1) | 1    | Python 3.12 | 0.000467 | [Here](./day_one/part_one.py) |
 | 2023 | [1](./day_one/) | [Trebuchet?!](https://adventofcode.com/2023/day/1) | 2    | Python 3.12 | 0.008967 | [Here](./day_one/part_two.py) |
 | 2023 | [2](./day_two/) | [Cube Conundrum](https://adventofcode.com/2023/day/2) | 1    | Python 3.12 | 0.000346 | [Here](./day_two/part_one.py) |
+| 2023 | [2](./day_two/) | [Cube Conundrum](https://adventofcode.com/2023/day/2) | 2    | Python 3.12 | 0.000327 | [Here](./day_two/part_two.py) |
 
 > The execution time is an average of 50 runs and is measured using the _timeit_ library in Python 3.12.
 

@@ -34,22 +34,16 @@ def main(print_output: bool = True):
                 # We add the game to the list of games
                 games.append(game)
 
-            valid_games = []
-
-            # We then see which game has less or equal to 12 red cubes, 13 green cubes, and 14 blue cubes
-            for game in games:
-                if (
-                    game.get_max_red_cubes() < 13
-                    and game.get_max_green_cubes() < 14
-                    and game.get_max_blue_cubes() < 15
-                ):
-                    valid_games.append(game)
-
-            # We calculate the sum of the game ids of the valid games
-            game_ids_sum = sum(game.get_id() for game in valid_games)
+            # We calculate the sum of the power of game sets (max_red_cubes * max_green_cubes * max_blue_cubes)
+            game_power_sum = sum(
+                game.get_max_red_cubes()
+                * game.get_max_green_cubes()
+                * game.get_max_blue_cubes()
+                for game in games
+            )
 
             if print_output:
-                print(f"Sum of all game IDs: {game_ids_sum}")
+                print(f"Sum of all game powers: {game_power_sum}")
                 sys.exit(0)
 
     except FileNotFoundError:

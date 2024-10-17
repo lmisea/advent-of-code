@@ -1,5 +1,4 @@
 import timeit
-
 from part_one import main as part_one  # noqa: F401
 from part_two import main as part_two  # noqa: F401
 
