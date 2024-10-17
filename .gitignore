@@ -1,5 +1,6 @@
 # Don't include the input for each puzzle
 **/input*.txt
+**/trial*.txt
 
 # Pycache
 **/__pycache__
