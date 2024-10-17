@@ -1,9 +1,9 @@
 import sys
 
 
-def main(print_output: bool):
+def main(print_output: bool = True):
     try:
-        with open("input_one.txt") as input_file:
+        with open("input.txt") as input_file:
             calibration_sum = 0
 
             for line in input_file:
@@ -17,7 +17,7 @@ def main(print_output: bool):
                 sys.exit(0)
 
     except FileNotFoundError:
-        print("The file input_one.txt was not found.")
+        print("The file input.txt was not found.")
         sys.exit(1)
     except Exception as e:
         print(f"An error occurred: {e}")
@@ -25,4 +25,4 @@ def main(print_output: bool):
 
 
 if __name__ == "__main__":
-    main(print_output=True)
+    main()
