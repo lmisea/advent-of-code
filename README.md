@@ -16,6 +16,7 @@ In addition to each day's solution, a benchmark script is also included in the s
 | 2023 | [3](./day_03/) | [Gear Ratios](https://adventofcode.com/2023/day/3)    | 1    | Python 3.12 | 0.001239 | [Here](./day_03/part_one.py) |
 | 2023 | [3](./day_03/) | [Gear Ratios](https://adventofcode.com/2023/day/3)    | 2    | Python 3.12 | 0.000867 | [Here](./day_03/part_two.py) |
 | 2023 | [4](./day_04/) | [Scratchcards](https://adventofcode.com/2023/day/4)   | 1    | Python 3.12 | 0.000537 | [Here](./day_04/part_one.py) |
+| 2023 | [4](./day_04/) | [Scratchcards](https://adventofcode.com/2023/day/4)   | 2    | Python 3.12 | 0.496596 | [Here](./day_04/part_two.py) |
 
 > The execution time is an average of 50 runs and is measured using the _timeit_ library in Python 3.12.
 
