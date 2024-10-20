@@ -23,9 +23,9 @@ def main(print_output: bool = True):
                 # We convert the original seeds into their final locations by applying the conversions
                 converted = []
                 for item in seeds:
-                    for destination, source, range in conversions:
+                    for destination, source, length in conversions:
                         # Check if the item is within the range of the source
-                        if source <= item < source + range:
+                        if source <= item < source + length:
                             converted.append(item - source + destination)
                             break
                     # The else block is executed if the for loop completes without breaking

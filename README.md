@@ -18,6 +18,7 @@ In addition to each day's solution, a benchmark script is also included in the s
 | 2023 | [4](./day_04/) | [Scratchcards](https://adventofcode.com/2023/day/4)                    | 1    | Python 3.12 | 0.000537 | [Here](./day_04/part_one.py) |
 | 2023 | [4](./day_04/) | [Scratchcards](https://adventofcode.com/2023/day/4)                    | 2    | Python 3.12 | 0.496596 | [Here](./day_04/part_two.py) |
 | 2023 | [5](./day_05/) | [If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/4) | 1    | Python 3.12 | 0.000177 | [Here](./day_05/part_one.py) |
+| 2023 | [5](./day_05/) | [If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/4) | 2    | Python 3.12 | 0.001316 | [Here](./day_05/part_two.py) |
 
 > The execution time is an average of 50 runs and is measured using the _timeit_ library in Python 3.12.
 
